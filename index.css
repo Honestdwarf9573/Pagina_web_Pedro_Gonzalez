@@ -22,7 +22,7 @@
 
   header.abajo {
       background: var(--color_fondo);
-      opacity: 50%;
+      opacity: 90%;
 
   }
 
@@ -126,7 +126,13 @@
   }
 
 
+div{
+    border: 1px solid red;
+}
 
+section{
+    border: 1px solid green;
+}
   
 
 
