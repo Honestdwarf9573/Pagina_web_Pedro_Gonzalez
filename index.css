@@ -1,5 +1,26 @@
   /* Normalize.css para establecer un estilo consistente en todos los elementos HTML */
   @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+  .linea_curva{
+  
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    top: 400px;
+    right: 24px;
+    bottom: 24px;
+    vertical-align: middle;
+    border: 0;
+    outline: 0;
+    width: 240px;
+    height:606px;
+
+}
+
+  .prueba{
+  
+font-size:10px;
+  }
 
 
 
@@ -55,7 +76,7 @@
   }
 
   .encabezado-principal.transparente {
-      background-color: transparent;
+     opacity: 0;
   }
 
 /*Para la imagen que estan el la cabecera*/
@@ -89,8 +110,18 @@
       background-size: cover;
 
   }
+ 
+  .fondo3 {
+    /* Lo mismo pero para la otra parte de la pagina */
+    background-image: url( https://comessgroup.com/wp-content/uploads/2022/06/pablo-merchan-montes-Orz90t6o0e4-unsplash-2.jpg);
 
-  
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
   .estilo_Letra {
       font-family: Arial, Helvetica, sans-serif;
@@ -126,14 +157,7 @@
   }
 
 
-div{
-    border: 1px solid red;
-}
 
-section{
-    border: 1px solid green;
-}
-  
 
 
   nav {
@@ -160,6 +184,8 @@ section{
       body {
           font-size: 16px;
       }
+
+      
   }
 
 
@@ -217,6 +243,14 @@ section{
           color: var(--color_letra);
           font-size: 10px;
       }
+
+      .cabecera {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+    }
   }
 
 
@@ -262,3 +296,66 @@ h2:first-child{
   transition: 0.7s;
 }
 
+section{
+    border: 1px solid green;
+}
+
+picture{
+    border: 1px solid blue;
+}
+div{
+    border: 1px solid red;
+}
+
+img{
+    border: 1px solid white;
+}
+
+.contenedor{
+  /* Lo mismo pero para la otra parte de la pagina */
+  background-image: url( https://comessgroup.com/wp-content/uploads/2022/06/pablo-merchan-montes-Orz90t6o0e4-unsplash-2.jpg);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+    /*Nadie sabe lo que me ha costado esto*/
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor alpha para cambiar la opacidad */
+  background-blend-mode: multiply;
+   display: flex;
+ justify-content: flex-start;
+ align-items:flex-start;
+ flex-direction: column;
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+
+/*
+
+
+
+    <section class="row">
+      <picture class="col-12 ">
+        <img
+          src="https://comessgroup.com/wp-content/uploads/2022/06/pablo-merchan-montes-Orz90t6o0e4-unsplash-2-1280x720.jpg"
+          alt="">
+      </picture>
+      <img src="https://comessgroup.com/wp-content/themes/comess/assets/img/c.svg" class="linea_curva " alt="">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h1> Líderes en franquicias de restauración</h1>
+      </div>
+    </section>
+
+
+
+*/
