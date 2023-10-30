@@ -1,119 +1,103 @@
   /* Normalize.css para establecer un estilo consistente en todos los elementos HTML */
   @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-  .linea_curva{
-  
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    top: 400px;
-    right: 24px;
-    bottom: 24px;
-    vertical-align: middle;
-    border: 0;
-    outline: 0;
-    width: 240px;
-    height:606px;
 
-}
 
-  .prueba{
-  
-font-size:10px;
+  .prueba {
+
+    font-size: 20px;
   }
-
 
 
 
   .cabecera {
-      display: flex;
-      flex-direction: row;
-      text-align: center;
-      justify-content: space-around;
-      align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
   }
+
+  .cabecera2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+  }
+
+
 
   .nav-link {
     color: white !important;
     font-weight: bold;
     font-size: large;
-}
+  }
 
 
 
   header.abajo {
-      background: var(--color_fondo);
-      opacity: 90%;
+    background: var(--color_fondo);
+    opacity: 90%;
 
   }
 
   header.abajo .logo,
   header.abajo ul li a {
-      color: white;
+    color: white;
   }
 
-/*Para centrar la imagen grande del principio*/
+  /*Para centrado del texto de debajo de la imagen*/
   .columna {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      text-align: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
   }
-/*Para la cabezera*/
+
+  /*Para la cabezera*/
   .encabezado-principal {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      left: 0;
-      z-index: 999;
-      width: 100%;
-      background: var(--menu-background-bar);
-      -webkit-filter: drop-shadow(0 6px 14px rgba(0, 0, 0, .08));
-      filter: drop-shadow(0 6px 14px rgba(0, 0, 0, .08));
-      margin-bottom: calc(var(--menu-height)*-1);
-      transition: background 300ms linear;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background: var(--menu-background-bar);
+    -webkit-filter: drop-shadow(0 6px 14px rgba(0, 0, 0, .08));
+    filter: drop-shadow(0 6px 14px rgba(0, 0, 0, .08));
+    margin-bottom: calc(var(--menu-height)*-1);
+    transition: background 300ms linear;
   }
 
   .encabezado-principal.transparente {
-     opacity: 0;
+    opacity: 0;
   }
 
-/*Para la imagen que estan el la cabecera*/
+  /*Para la imagen que estan el la cabecera*/
   .logo {
 
-      width: 100px;
-      height: 100px;
+    width: 100px;
+    height: 100px;
   }
 
   .fondo {
-      /* La imagen que se usa */
-      background-image: url(https://traptoreditorial.com/wp-content/uploads/2016/04/fondo-minimalista-negro-minimalist-background-fondo-sitio-web-minimalista-fondo-negro-web.jpg);
-    
-      height: 100%;
-      /* Centrar la imagen y que se quede bien */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      object-position: 0%;
+    /* La imagen que se usa */
+    background-image: url(https://traptoreditorial.com/wp-content/uploads/2016/04/fondo-minimalista-negro-minimalist-background-fondo-sitio-web-minimalista-fondo-negro-web.jpg);
+
+    height: 100%;
+    /* Centrar la imagen y que se quede bien */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-position: 0%;
 
   }
 
   .fondo2 {
-      /* Lo mismo pero para la otra parte de la pagina */
-      background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/616/614/original/white-neon-frame-lighting-on-black-background-4k-60fps-free-video.jpg);
-  
-      height: 100%;
-
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-
-  }
- 
-  .fondo3 {
     /* Lo mismo pero para la otra parte de la pagina */
-    background-image: url( https://comessgroup.com/wp-content/uploads/2022/06/pablo-merchan-montes-Orz90t6o0e4-unsplash-2.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/616/614/original/white-neon-frame-lighting-on-black-background-4k-60fps-free-video.jpg);
 
     height: 100%;
 
@@ -121,20 +105,23 @@ font-size:10px;
     background-repeat: no-repeat;
     background-size: cover;
 
-}
-
-  .estilo_Letra {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0 15px;
-      text-decoration: none;
-      color: var(--color_letra);
-      letter-spacing: 2px;
-      font-weight: bolder !important;
-      transition: 0.7s;
   }
 
 
- 
+
+
+  .estilo_Letra {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--color_letra);
+    letter-spacing: 2px;
+    font-weight: bolder !important;
+    transition: 0.7s;
+  }
+
+
+
 
   .estilo_Letra h6 {
     font-size: 16px;
@@ -142,18 +129,21 @@ font-size:10px;
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: bold !important;
   }
-  
+
+  .invisible {
+    visibility: hidden;
+  }
 
 
 
   .disposicion {
-      display: flex;
-      flex-direction: row;
-      text-align: center;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
-      padding: 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
   }
 
 
@@ -161,55 +151,55 @@ font-size:10px;
 
 
   nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   header ul {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
   header ul li {
-      list-style: none;
+    list-style: none;
 
   }
 
 
   @media (max-width: 576px) {
-      body {
-          font-size: 16px;
-      }
+    body {
+      font-size: 16px;
+    }
 
-      
+
   }
 
 
   /* Variables CSS (:root) */
   :root {
-      --color_fondo: black;
-      --color_letra: white;
+    --color_fondo: black;
+    --color_letra: white;
   }
 
 
   /* Selectores avanzados */
 
   /* Selector '+' para seleccionar el elemento inmediatamente siguiente */
- 
+
   h6+p {
-      font-family: Arial, Helvetica, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      margin: 0 15px;
+    font-family: Arial, Helvetica, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 15px;
     text-decoration: none;
-      color: var(--color_letra);
-      letter-spacing: 2px;
-    
-      transition: 0.7s;
-      font-weight: bold;
-      font-size: large;
+    color: var(--color_letra);
+    letter-spacing: 2px;
+
+    transition: 0.7s;
+    font-weight: bold;
+    font-size: large;
   }
 
 
@@ -231,131 +221,105 @@ font-size:10px;
   /* Selector 'last-child' para seleccionar el último elemento hijo */
 
   img:last-child {
-    
+
     width: 100%;
     padding: 10px;
   }
 
   /* Estilos para el navbar en dispositivos móviles */
   @media (max-width: 767px) {
-      .mobile-navbar {
-          display: block;
-          color: var(--color_letra);
-          font-size: 10px;
-      }
+    .mobile-navbar {
+      display: block;
+      color: var(--color_letra);
+      font-size: 10px;
 
-      .cabecera {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
+    }
+
+    p {
+
+      padding-top: 10px
+    }
+
+    .prueba {
+      font-size: 20px;
+      right: 60px;
+
+    }
+
+
+  }
+
+  @media (min-width: 672px) and (max-width: 768px) {
+
+    /* Estilos para pantallas de entre 768 y 992 píxeles de ancho */
+    .prueba {
+      font-size: 30px;
     }
   }
 
 
-  /* Media queries para optimizar el diseño en diferentes tamaños de pantalla */
-  @media (max-width: 768px) {
-
-      /* Estilos para pantallas de hasta 768 píxeles de ancho */
-      body {
-          font-size: 16px;
-      }
-  }
 
   @media (min-width: 768px) and (max-width: 992px) {
 
-      /* Estilos para pantallas de entre 768 y 992 píxeles de ancho */
-      body {
-          font-size: 18px;
-      }
+    /* Estilos para pantallas de entre 768 y 992 píxeles de ancho */
+    .prueba {
+      font-size: 30px;
+      right: 100px;
+    }
   }
 
   @media (min-width: 992px) {
 
-      /* Estilos para pantallas de más de 992 píxeles de ancho */
-      body {
-          font-size: 20px;
-      }
+    /* Estilos para pantallas de más de 992 píxeles de ancho */
+    body {
+      font-size: 20px;
+    }
+
+
+    .prueba {
+      font-size: 50px;
+      right: 100px;
+    }
+
+
+
   }
+
 
   /* Container queries para asegurar que los elementos dentro de los contenedores se comporten de forma adecuada en distintos contextos de tamaño */
   .container {
-      width: 100%;
-      max-width: 1200px;
+    width: 100%;
+    max-width: 1200px;
   }
 
 
-h2:first-child{
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0 15px;
-  text-decoration: none;
-  color: var(--color_letra);
-  letter-spacing: 2px;
-  font-weight: bolder !important;
-  transition: 0.7s;
-}
+  h2:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--color_letra);
+    letter-spacing: 2px;
+    font-weight: bolder !important;
+    transition: 0.7s;
+  }
 
-section{
-    border: 1px solid green;
-}
 
-picture{
-    border: 1px solid blue;
-}
-div{
-    border: 1px solid red;
-}
+  .contenedor {
+    /* Lo mismo pero para la otra parte de la pagina */
+    background-image: url(https://comessgroup.com/wp-content/uploads/2022/06/pablo-merchan-montes-Orz90t6o0e4-unsplash-2.jpg);
 
-img{
-    border: 1px solid white;
-}
+    height: 100%;
 
-.contenedor{
-  /* Lo mismo pero para la otra parte de la pagina */
-  background-image: url( https://comessgroup.com/wp-content/uploads/2022/06/pablo-merchan-montes-Orz90t6o0e4-unsplash-2.jpg);
-
-  height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /*Nadie sabe lo que me ha costado esto*/
-  height: 100vw;
-  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor alpha para cambiar la opacidad */
-  background-blend-mode: multiply;
-   display: flex;
- justify-content: flex-start;
- align-items:flex-start;
- flex-direction: column;
-}
-
-.cabecera {
+    height: 50vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Ajusta el valor alpha para cambiar la opacidad */
+    background-blend-mode: multiply;
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    text-align: left;
-}
 
-
-/*
-
-
-
-    <section class="row">
-      <picture class="col-12 ">
-        <img
-          src="https://comessgroup.com/wp-content/uploads/2022/06/pablo-merchan-montes-Orz90t6o0e4-unsplash-2-1280x720.jpg"
-          alt="">
-      </picture>
-      <img src="https://comessgroup.com/wp-content/themes/comess/assets/img/c.svg" class="linea_curva " alt="">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <h1> Líderes en franquicias de restauración</h1>
-      </div>
-    </section>
-
-
-
-*/
+  }
